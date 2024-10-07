@@ -31,25 +31,24 @@ export function ContactForm() {
         <Card shadow={true} className="container mx-auto border border-gray/50">
           <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10">
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
-              <Typography variant="h4" color="white" className="mb-2">
+              <Typography variant="h4" color="white" className="mb-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 Contact Information
               </Typography>
               <Typography
                 variant="lead"
-                className="mx-auto mb-8 text-base !text-gray-500"
-              >
+                className="mx-auto mb-8 text-base !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
                 Fill up the form and our Team will get back to you within 24
                 hours.
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+                <Typography variant="h6" color="white" className="mb-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                   +229 66559755
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">
                 <EnvelopeIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+                <Typography variant="h6" color="white" className="mb-2" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                   aurdhas.houndegnon-denakpo@epitech.eu
                 </Typography>
               </div>
@@ -113,8 +112,7 @@ export function ContactForm() {
                 />
                 <Typography
                   variant="lead"
-                  className="!text-blue-gray-500 text-sm mb-2"
-                >
+                  className="!text-blue-gray-500 text-sm mb-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                >
                   What are you interested on?
                 </Typography>
                 <div className="-ml-3 mb-14 ">
