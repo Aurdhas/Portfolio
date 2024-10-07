@@ -16,12 +16,12 @@ export function ContactForm() {
   return (
     <section className="px-8 py-16">
       <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography variant="h1" color="blue-gray" className="mb-4" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
           Contact Us
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full lg:w-5/12 !text-gray-500"
+          className="mx-auto w-full lg:w-5/12 !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} 
         >
           Ready to get started? Feel free to reach out through the contact form,
           and let&apos;s embark on a journey of innovation and success.
