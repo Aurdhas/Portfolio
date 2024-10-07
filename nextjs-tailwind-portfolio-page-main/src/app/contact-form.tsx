@@ -28,8 +28,8 @@ export function ContactForm() {
         </Typography>
       </div>
       <div>
-        <Card shadow={true} className="container mx-auto border border-gray/50">
-          <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10">
+        <Card shadow={true} className="container mx-auto border border-gray/50" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
               <Typography variant="h4" color="white" className="mb-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 Contact Information
@@ -59,13 +59,13 @@ export function ContactForm() {
                 </Typography>
               </div> */}
               <div className="flex items-center gap-5">
-                <IconButton variant="text" color="white">
+                <IconButton variant="text" color="white" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                   <i className="fa-brands fa-facebook text-lg" />
                 </IconButton>
-                <IconButton variant="text" color="white">
+                <IconButton variant="text" color="white" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                   <i className="fa-brands fa-instagram text-lg" />
                 </IconButton>
-                <IconButton variant="text" color="white">
+                <IconButton variant="text" color="white" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                   <i className="fa-brands fa-github text-lg" />
                 </IconButton>
               </div>
@@ -142,7 +142,7 @@ export function ContactForm() {
                   }}
                 />
                 <div className="w-full flex justify-end">
-                  <Button className="w-full md:w-fit" color="gray" size="md">
+                  <Button className="w-full md:w-fit" color="gray" size="md" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                     Send message
                   </Button>
                 </div>

@@ -37,10 +37,10 @@ export function Resume() {
             experience in crafting visually stunning and functionally robust
             websites and web applications.
           </Typography>
-          <Button
+          <Button 
             variant="text"
             color="gray"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           >
             view more
             <ArrowRightIcon

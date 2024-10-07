@@ -12,6 +12,7 @@ function Hero() {
             variant="h1"
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
+            placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           >
             Welcome to my Web <br /> Development Portofolio!
           </Typography>
@@ -32,7 +33,7 @@ function Hero() {
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
               <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
+              <Button color="gray" className="w-full px-4 md:w-[12rem]" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 Contact me
               </Button>
             </div>

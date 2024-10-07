@@ -22,7 +22,7 @@ export function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
     return `#${CHHAPOLA}`;
   };
   return (
-    <Card color="transparent" shadow={false}>
+    <Card color="transparent" shadow={false} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
       {/* <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
         <Image
           src={img}
@@ -32,7 +32,7 @@ export function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
           className="h-full w-full object-cover"
         />
       </CardHeader> */}
-      <CardBody style={{backgroundColor:generateColor()}} className="p-0 py-4 justify-center px-6 rounded-lg h-[200px] space-y-8">
+      <CardBody style={{backgroundColor:generateColor()}} className="p-0 py-4 justify-center px-6 rounded-lg h-[200px] space-y-8" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <a
           href={link}
           className="text-white text-center transition-colors hover:text-gray-800"
