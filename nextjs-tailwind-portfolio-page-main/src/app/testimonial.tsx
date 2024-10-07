@@ -28,21 +28,21 @@ export function Testimonial() {
               <Typography
                 variant="h3"
                 color="blue-gray"
-                className="mb-4 font-bold lg:max-w-xs"
+                className="mb-4 font-bold lg:max-w-xs" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} 
               >
                 Mobile App Development
               </Typography>
-              <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
+              <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
                 I had the pleasure of working with Lily on a critical web
                 development project, and I can confidently say that their
                 expertise and professionalism exceeded my expectations.
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-0.5">
+              <Typography variant="h6" color="blue-gray" className="mb-0.5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
                 Michael - Technical Manager
               </Typography>
               <Typography
                 variant="small"
-                className="font-normal mb-5 !text-gray-500"
+                className="font-normal mb-5 !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} 
               >
                 Marketing @ APPLE INC.
               </Typography>

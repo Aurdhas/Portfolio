@@ -17,16 +17,15 @@ function Hero() {
           </Typography>
           <Typography
             variant="lead"
-            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
-          >
+            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             I&apos;m Aurdhas HOUNDEGNON, a passionate web developer based in Benin. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality.
           </Typography>
           <div className="grid">
-            <Typography
+            <Typography 
               variant="small"
-              className="mb-2 text-gray-900 font-medium"
+              className="mb-2 text-gray-900 font-medium" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} 
             >
               Your email
             </Typography>

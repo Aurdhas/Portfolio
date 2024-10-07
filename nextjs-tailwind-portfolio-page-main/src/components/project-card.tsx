@@ -37,11 +37,11 @@ export function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
           href={link}
           className="text-white text-center transition-colors hover:text-gray-800"
         >
-          <Typography variant="h4" className="mb-2">
+          <Typography variant="h4" className="mb-2" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
             {title}
           </Typography>
         </a>
-        <Typography className="mb-6 font-bold items-center !text-black">
+        <Typography className="mb-6 font-bold items-center !text-black" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
           {desc}
         </Typography>
         {/* <Button color="gray" size="sm" >
