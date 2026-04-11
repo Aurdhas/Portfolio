@@ -1,0 +1,241 @@
+export const portfolioData = {
+    personal: {
+      name: "Fifame Aurdhas Houndegnon Denakpo",
+      shortName: "Aurdhas",
+      title: "Statisticienne & Développeuse Web Full-stack",
+      location: "Cotonou, Bénin",
+      email: "aurdhas.houndegnon-denakpo@epitech.eu",
+      phone: "+229 01 66 55 97 55",
+      linkedin: "http://linkedin.com/in/aurdhas",
+      bio: "Statisticienne, développeuse web full-stack et créatrice de contenu. Je transforme les données en insights, les idées en applications et les instants en visuels marquants.",    },
+  
+    skills: {
+      data: [
+        "Analyse statistique (Stata)",
+        "Collecte numérique (ODK, KoboCollect)",
+        "Nettoyage et préparation des données (Excel)",
+        "Conception de bases de données (MySQL, MongoDB)",
+      ],
+      tech: [
+        { name: "JavaScript", level: 85 },
+        { name: "Python", level: 75 },
+        { name: "PHP", level: 70 },
+        { name: "SQL", level: 80 },
+        { name: "Next.js", level: 75 },
+        { name: "React Native", level: 70 },
+        { name: "Laravel", level: 72 },
+        { name: "Vue.js", level: 70 },
+        { name: "Angular", level: 65 },
+      ],
+      design: ["Figma", "Canva", "Adobe Premiere", "Lightroom", "CapCut", "InShot"],
+      soft: ["Adaptabilité", "Esprit d'équipe", "Autonomie"],
+    },
+  
+    experiences: [
+      {
+        id: 1,
+        company: "Ministère du Travail et de la Fonction Publique",
+        role: "Stage en développement web",
+        period: "Déc 2024 – Mars 2025",
+        tech: ["Angular", "Laravel"],
+        tasks: [
+          "Refonte du back-office du MTFP",
+          "Mise à jour du répertoire des processus métiers",
+          "Optimisation et migration des e-services",
+        ],
+      },
+      {
+        id: 2,
+        company: "Epitech Bénin",
+        role: "Projets en développement web",
+        period: "Juin 2024 – Nov 2024",
+        tech: ["React Native", "Next.js", "MongoDB", "Laravel", "Vue.js"],
+        tasks: [
+          "Application mobile de type Trello (React Native)",
+          "Plateforme de recherche de films (API TMDB, Next.js, MongoDB)",
+          "Application YOWL pour recenser des commentaires (Laravel, Vue.js)",
+        ],
+      },
+      {
+        id: 3,
+        company: "Divers partenaires",
+        role: "Agent de collecte de données",
+        period: "2023 – 2024",
+        tech: ["KoboCollect", "ODK", "Excel"],
+        tasks: [
+          "Missions pour Université de Bruxelles-UAC-UP (KoboCollect)",
+          "Ministère du Développement (ODK Collect)",
+          "IREEP/ASE (Appel téléphonique, Excel)",
+        ],
+      },
+      {
+        id: 4,
+        company: "CE2SED",
+        role: "Stage en statistiques",
+        period: "Mars 2021 – Juin 2021",
+        tech: ["Stata", "Excel"],
+        tasks: [
+          "Collaboration pour la rédaction de contrats et offres",
+          "Collecte et analyse de données clients",
+        ],
+      },
+      {
+        id: 5,
+        company: "LUZ TIC",
+        role: "Stage en analyse de données",
+        period: "Juil 2021 – Oct 2021",
+        tech: ["Excel"],
+        tasks: [
+          "Collecte et analyse des données de commercialisation de matériels informatiques",
+          "Visualisation et recommandations commerciales",
+        ],
+      },
+    ],
+  
+    education: [
+      {
+        school: "Coding Academy by EPITECH Bénin",
+        degree: "Certification en Développement Web",
+        period: "2024 – 2025",
+      },
+      {
+        school: "FASEG / Université d'Abomey-Calavi",
+        degree: "Licence en Économétrie et Statistiques Appliquées",
+        period: "2017 – 2020",
+      },
+      {
+        school: "CEG 1 Lokossa",
+        degree: "Baccalauréat série C",
+        period: "2017",
+      },
+    ],
+  
+    projects: [
+        {
+          id: 1,
+          title: "Plateforme de recherche de films",
+          description: "Plateforme complète de recherche et découverte de films connectée à l'API TMDB.",
+          tech: ["Next.js", "MongoDB", "TMDB API"],
+          type: "Dev",
+        },
+        {
+          id: 2,
+          title: "App mobile Trello-like",
+          description: "Application mobile de gestion de tâches en équipe inspirée de Trello.",
+          tech: ["React Native"],
+          type: "Dev",
+        },
+        {
+          id: 3,
+          title: "YOWL – Agrégateur de commentaires",
+          description: "Application web pour recenser et analyser des commentaires issus d'internet.",
+          tech: ["Laravel", "Vue.js"],
+          type: "Dev",
+        },
+        {
+          id: 4,
+          title: "Back-office MTFP",
+          description: "Refonte complète du back-office du Ministère du Travail et de la Fonction Publique.",
+          tech: ["Angular", "Laravel"],
+          type: "Dev",
+        },
+        {
+          id: 5,
+          title: "Analyse données – Université de Bruxelles",
+          description: "Collecte structurée et vérification qualité des données terrain via KoboCollect.",
+          tech: ["KoboCollect", "Excel"],
+          type: "Data",
+        },
+        {
+          id: 6,
+          title: "Collecte données – Ministère du Développement",
+          description: "Collecte de données sur le terrain et analyse statistique avec ODK Collect.",
+          tech: ["ODK Collect", "Stata"],
+          type: "Data",
+        },
+        {
+          id: 7,
+          title: "Analyse commerciale – LUZ TIC",
+          description: "Collecte, analyse et visualisation des données de commercialisation de matériels informatiques.",
+          tech: ["Excel"],
+          type: "Data",
+        },
+        {
+          id: 8,
+          title: "Montage vidéo",
+          description: "Montages vidéo créatifs pour réseaux sociaux — transitions, effets, habillage sonore.",
+          tech: ["CapCut", "Adobe Premiere", "InShot"],
+          type: "Contenu",
+        },
+        {
+          id: 9,
+          title: "Édition photo",
+          description: "Retouche et édition photo professionnelle, colorimétrie et mise en valeur visuelle.",
+          tech: ["Lightroom", "CapCut"],
+          type: "Contenu",
+        },
+      ],
+  
+    languages: [
+      { name: "Français", level: "Langue maternelle" },
+      { name: "Fon", level: "Langue maternelle" },
+      { name: "Anglais", level: "Intermédiaire" },
+    ],
+  
+    hobbies: ["Voyages", "Photographie", "Sport"],
+
+    content: [
+      {
+        id: 1,
+        type: "video",
+        title: "Générique",
+        description: "Montage créatif avec effets et transitions.",
+        src: "/content/videos/video1.mov",
+        poster: "/content/photos/photo5.png",
+      },
+      {
+        id: 2,
+        type: "photo",
+        title: "Photo éditée 1",
+        description: "Retouche colorimétrique sous Lightroom.",
+        src: "/content/photos/photo1.jpg",
+      },
+      {
+        id: 3,
+        type: "photo",
+        title: "Photo éditée 2",
+        description: "Édition et mise en valeur visuelle.",
+        src: "/content/photos/photo2.jpg",
+      },
+      {
+        id: 4,
+        type: "photo",
+        title: "Photo éditée 3",
+        description: "Portrait retouché avec Lightroom.",
+        src: "/content/photos/photo3.jpg",
+      },
+      {
+        id: 5,
+        type: "video",
+        title: "Vlog concert Vano",
+        description: "Montage créatif avec effets et transitions.",
+        src: "/content/videos/video2.mov",
+        poster: "/content/photos/photo6.png",
+      },
+      {
+        id: 6,
+        type: "photo",
+        title: "Photo éditée 4",
+        description: "Retouche et mise en valeur visuelle.",
+        src: "/content/photos/photo4.png",
+      },
+      {
+        id: 7,
+        type: "video",
+        title: "Rivière noire",
+        description: "Montage créatif avec effets et transitions.",
+        src: "/content/videos/video3.mp4",
+        poster: "/content/photos/photo7.png",
+      },
+    ],
+  };
