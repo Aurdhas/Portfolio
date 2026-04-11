@@ -237,5 +237,28 @@ export const portfolioData = {
         src: "/content/videos/video3.mp4",
         poster: "/content/photos/photo7.png",
       },
+      {
+        id: 8,
+        type: "video",
+        title: "Décoration de mariage",
+        description: "Montage créatif avec effets et transitions.",
+        src: "/content/videos/video4.mov",
+        poster: "/content/photos/photo8.png",
+      },
+      {
+        id: 9,
+        type: "video",
+        title: "Publicité de boutique",
+        description: "Montage créatif avec effets et transitions.",
+        src: "/content/videos/video5.mp4",
+        poster: "/content/photos/photo9.png",
+      },
+      {
+        id: 10,
+        type: "photo",
+        title: "Photo éditée 5",
+        description: "Retouche et mise en valeur visuelle.",
+        src: "/content/photos/photo10.png",
+      },
     ],
   };
