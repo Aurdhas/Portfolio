@@ -29,7 +29,7 @@ export default function About() {
             {/* Texte */}
             <div>
               <p style={{ color: "rgba(255,255,255,0.7)", lineHeight: 1.9, fontSize: "clamp(0.85rem, 1.5vw, 1rem)", marginBottom: "1.5rem" }}>
-                Je suis <strong style={{ color: "#a78bfa" }}>Fifame Aurdhas</strong>, statisticienne, développeuse web full-stack et créatrice de contenu, basée à <strong style={{ color: "#22d3ee" }}>Cotonou, Bénin</strong>.
+                Je suis <strong style={{ color: "#a78bfa" }}>Fifame Aurdhas HOUNDEGNON DENAKPO</strong>, statisticienne, développeuse web full-stack et créatrice de contenu, basée à <strong style={{ color: "#22d3ee" }}>Cotonou, Bénin</strong>.
               </p>
               <p style={{ color: "rgba(255,255,255,0.7)", lineHeight: 1.9, fontSize: "clamp(0.85rem, 1.5vw, 1rem)", marginBottom: "1.5rem" }}>
                 Mon profil se situe à l&apos;intersection de trois univers : <strong style={{ color: "#fff" }}>la donnée</strong>, <strong style={{ color: "#fff" }}>le code</strong> et <strong style={{ color: "#fff" }}>la création visuelle</strong>.
