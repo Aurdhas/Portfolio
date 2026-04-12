@@ -2,6 +2,32 @@
 
 import { portfolioData } from "@/data/portfolio";
 
+const BoltIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  </svg>
+);
+
+const GraduationIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+  </svg>
+);
+
+const ArrowIcon = ({ color }: { color: string }) => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: "3px" }}>
+    <line x1="5" y1="12" x2="19" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  </svg>
+);
+
+const StarIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34d399" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+  </svg>
+);
+
 export default function Experience() {
   return (
     <>
@@ -22,7 +48,7 @@ export default function Experience() {
             {/* Expériences */}
             <div>
               <h3 style={{ color: "#22d3ee", fontWeight: 600, fontSize: "0.9rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "2rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-                <span>⚡</span> Expériences
+                <BoltIcon /> Expériences
               </h3>
               <div style={{ position: "relative" }}>
                 <div style={{ position: "absolute", left: "11px", top: 0, bottom: 0, width: "2px", background: "linear-gradient(to bottom, #7C3AED, #06B6D4, transparent)" }} />
@@ -36,10 +62,10 @@ export default function Experience() {
                         <div style={{ fontSize: "0.75rem", color: "#a78bfa", fontWeight: 600, marginBottom: "0.25rem" }}>{exp.period}</div>
                         <h4 style={{ color: "#fff", fontWeight: 600, fontSize: "0.9rem", marginBottom: "0.25rem" }}>{exp.role}</h4>
                         <div style={{ color: "#22d3ee", fontSize: "0.82rem", marginBottom: "0.75rem" }}>{exp.company}</div>
-                        <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "0.35rem" }}>
+                        <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                           {exp.tasks.map((task, i) => (
-                            <li key={i} style={{ color: "rgba(255,255,255,0.55)", fontSize: "0.78rem", display: "flex", gap: "0.5rem" }}>
-                              <span style={{ color: "#F59E0B", flexShrink: 0 }}>→</span>
+                            <li key={i} style={{ color: "rgba(255,255,255,0.55)", fontSize: "0.78rem", display: "flex", gap: "0.5rem", alignItems: "flex-start" }}>
+                              <ArrowIcon color="#F59E0B" />
                               {task}
                             </li>
                           ))}
@@ -59,7 +85,7 @@ export default function Experience() {
             {/* Formation */}
             <div>
               <h3 style={{ color: "#F59E0B", fontWeight: 600, fontSize: "0.9rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "2rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-                <span>🎓</span> Formation
+                <GraduationIcon /> Formation
               </h3>
               <div style={{ position: "relative" }}>
                 <div style={{ position: "absolute", left: "11px", top: 0, bottom: 0, width: "2px", background: "linear-gradient(to bottom, #F59E0B, #a78bfa, transparent)" }} />
@@ -82,11 +108,13 @@ export default function Experience() {
                       <div style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#fff" }} />
                     </div>
                     <div style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "16px", padding: "1.25rem" }}>
-                      <h4 style={{ color: "#fff", fontWeight: 600, fontSize: "0.9rem", marginBottom: "0.75rem" }}>Activités transversales</h4>
-                      <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "0.35rem" }}>
+                      <h4 style={{ color: "#fff", fontWeight: 600, fontSize: "0.9rem", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                        <StarIcon /> Activités transversales
+                      </h4>
+                      <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                         {["Facilitatrice au hackathon AFG", "Formation en maquillage & tresses", "Caissière à Delta Trading SARL"].map((item, i) => (
-                          <li key={i} style={{ color: "rgba(255,255,255,0.55)", fontSize: "0.78rem", display: "flex", gap: "0.5rem" }}>
-                            <span style={{ color: "#34d399", flexShrink: 0 }}>→</span>
+                          <li key={i} style={{ color: "rgba(255,255,255,0.55)", fontSize: "0.78rem", display: "flex", gap: "0.5rem", alignItems: "flex-start" }}>
+                            <ArrowIcon color="#34d399" />
                             {item}
                           </li>
                         ))}
