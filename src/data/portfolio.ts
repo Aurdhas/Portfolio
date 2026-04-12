@@ -11,7 +11,7 @@ export const portfolioData = {
   
     skills: {
       data: [
-        "Analyse statistique (Stata)",
+        "Analyse statistique (Stata,R,SPSS)",
         "Collecte numérique (ODK, KoboCollect)",
         "Nettoyage et préparation des données (Excel)",
         "Conception de bases de données (MySQL, MongoDB)",
