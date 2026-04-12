@@ -190,7 +190,7 @@ export const portfolioData = {
         type: "video",
         title: "Générique",
         description: "Montage créatif avec effets et transitions.",
-        src: "/content/videos/video1.mov",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video1_mzu82w.mov",
         poster: "/content/photos/photo5.png",
       },
       {
@@ -219,7 +219,7 @@ export const portfolioData = {
         type: "video",
         title: "Vlog concert Vano",
         description: "Montage créatif avec effets et transitions.",
-        src: "/content/videos/video2.mov",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video2_d2x39p.mov",
         poster: "/content/photos/photo6.png",
       },
       {
@@ -234,7 +234,7 @@ export const portfolioData = {
         type: "video",
         title: "Rivière noire",
         description: "Montage créatif avec effets et transitions.",
-        src: "/content/videos/video3.mp4",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video3_vgetmf.mov",
         poster: "/content/photos/photo7.png",
       },
       {
@@ -242,7 +242,7 @@ export const portfolioData = {
         type: "video",
         title: "Décoration de mariage",
         description: "Montage créatif avec effets et transitions.",
-        src: "/content/videos/video4.mov",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video4_kiuzug.mov",
         poster: "/content/photos/photo8.png",
       },
       {
@@ -250,7 +250,7 @@ export const portfolioData = {
         type: "video",
         title: "Publicité de boutique",
         description: "Montage créatif avec effets et transitions.",
-        src: "/content/videos/video5.mp4",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video5_afthlx.mov",
         poster: "/content/photos/photo9.png",
       },
       {
