@@ -67,10 +67,22 @@ export default function Hero() {
           <div style={{ flex: 1, minWidth: 0 }}>
 
             {/* Badge */}
-            <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: "rgba(124,58,237,0.15)", border: "1px solid rgba(124,58,237,0.3)", borderRadius: "50px", padding: "6px 16px", marginBottom: "1.5rem", fontSize: "0.8rem", color: "#a78bfa", fontWeight: 500 }}>
-              <span style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#22c55e", display: "inline-block" }} />
-              Data · Dev · Contenu
-            </div>
+            <div style={{
+  display: "inline-flex",
+  alignItems: "center",
+  marginBottom: "1.5rem",
+  fontSize: "0.72rem",
+  fontFamily: "system-ui, sans-serif",
+  fontWeight: 400,
+  color: "#888",
+}}>
+  {["Data", "Dev", "Contenu"].map((item, i) => (
+    <span key={item} style={{ display: "flex", alignItems: "center" }}>
+      {i > 0 && <span style={{ margin: "0 8px", opacity: 0.4 }}>|</span>}
+      {item}
+    </span>
+  ))}
+</div>
 
             {/* Nom */}
             <h1 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "clamp(2rem, 5vw, 4.5rem)", fontWeight: 700, lineHeight: 1.1, marginBottom: "1rem", color: "#ffffff" }}>
