@@ -88,7 +88,7 @@ export default function Contact() {
 
         <div style={{ marginTop: "4rem", paddingTop: "2rem", borderTop: "1px solid rgba(255,255,255,0.06)", display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
           <p style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.8rem" }}>
-            Conçu et développé par <span style={{ color: "#a78bfa", fontWeight: 600 }}>Fifame Aurdhas</span> · 2025
+             <span style={{ color: "#a78bfa", fontWeight: 600 }}>Fifame Aurdhas</span> · {new Date().getFullYear()}
           </p>
           <div style={{ display: "flex", gap: "1rem" }}>
             {[
