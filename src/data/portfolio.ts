@@ -174,6 +174,7 @@ export const portfolioData = {
           tech: ["Lightroom", "CapCut"],
           type: "Contenu",
         },
+        
       ],
   
     languages: [
@@ -259,6 +260,53 @@ export const portfolioData = {
         title: "Photo éditée 5",
         description: "Retouche et mise en valeur visuelle.",
         src: "/content/photos/photo10.png",
+      },
+      {
+        id: 11,
+        type: "video",
+        title: "JAMES",
+        description: "Montage créatif avec effets et transitions.",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video6_n3ne2s.mov",
+        poster: "/content/photos/photo13.png",
+      },
+      {
+        id: 12,
+        type: "video",
+        title: "Festival des masques",
+        description: "Montage créatif avec effets et transitions.",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video8_g38ekr.mov",
+        poster: "/content/photos/photo12.png",
+      },
+      {
+        id: 13,
+        type: "video",
+        title: "Publicité BEN CHIC",
+        description: "Montage créatif avec effets et transitions.",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video7_xpohnz.mov",
+        poster: "/content/photos/photo11.png",
+      },
+      {
+        id: 14,
+        type: "photo",
+        title: "Soutenance",
+        description: "Retouche et mise en valeur visuelle.",
+        src: "/content/photos/photo14.png",
+      },
+      {
+        id: 15,
+        type: "video",
+        title: "Prestation MEVA BEAUTY",
+        description: "Montage créatif avec effets et transitions.",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video9_n5vgbh.mov",
+        poster: "/content/photos/photo15.png",
+      },
+      {
+        id: 16,
+        type: "video",
+        title: "Publicité de Logiciel",
+        description: "Montage créatif avec effets et transitions.",
+        src: "https://res.cloudinary.com/djf1ih9i0/video/upload/video10_md0wre.mov",
+        poster: "/content/photos/photo16.png",
       },
     ],
   };

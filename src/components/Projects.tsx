@@ -83,7 +83,7 @@ export default function Projects() {
                     {project.description}
                   </p>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginTop: "auto" }}>
-                    {project.tech.map((t) => (
+                  {(project.tech || []).map((t) => (
                       <span key={t} style={{ background: "rgba(255,255,255,0.06)", color: "rgba(255,255,255,0.5)", padding: "3px 10px", borderRadius: "50px", fontSize: "0.7rem", fontWeight: 500 }}>
                         {t}
                       </span>
